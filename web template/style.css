@@ -1,0 +1,160 @@
+
+*{
+    margin: 0%;
+}
+body{
+     background-color: rgb(201, 201, 182);
+     font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-top{
+    background-color: rgb(242, 242, 242);
+    height: 40px;
+    width: 100%;
+    padding: 10px; 
+    position: absolute; 
+}
+.box1{
+    position: absolute;
+    left: 98%;
+}
+.box1:hover{
+    background-color: skyblue;
+}
+.box2{
+    position: absolute;
+    left: 44%;
+}
+.box2:hover{
+    background-color: skyblue;
+}
+.box3{
+    position: absolute;
+    left: 47%;
+}
+.box3:hover{
+    background-color: skyblue;
+}
+.box4{
+    position: absolute;
+    left: 50%;
+}
+.box4:hover{
+    background-color: skyblue;
+}
+.box5{
+    position: absolute;
+    left: 53%;
+}
+.box5:hover{
+    background-color: skyblue;
+}
+.box6{
+    position: absolute;
+    left: 56%;
+}
+.box6:hover{
+    background-color: skyblue;
+}
+.navbar-down{
+    display: flex;
+    height: 170px;
+    background-color: white;
+    align-items: center;
+}
+.navbar-down i{
+    position: absolute;
+    right: 2%;
+    margin-top: 2opx;
+}
+.navbar-down i:hover{
+    color:skyblue;
+}
+.box8{
+    position: absolute;
+    left: 2%;
+}   
+.main-container{
+    background-color: rgb(201, 201, 182);
+    height: 950px;
+    margin: 100px 50px 100px 400px;
+    color: black;
+    position: relative;  
+}
+.anchor{
+    color: black;
+}
+.container{
+    background-color: rgb(132, 132, 117);
+    height: 950px;
+    margin: 50px 30px 50px 50px;        
+}
+.picture{
+    position: absolute;
+    margin: 70px 50px 50px -380px;      
+}
+.one{
+    background-color: white;
+    justify-content: space-evenly;
+    height: 375px; 
+    width: 300px; 
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    margin: 390px 50px 50px -420px; 
+    position: absolute;
+    padding: 10px;
+}
+.two{
+    background-color: white;
+    justify-content: space-evenly;
+    height: 375px;
+    width: 300px; 
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    margin: 390px 50px 50px -85px; 
+    position: absolute;
+    padding: 10px; 
+}
+.three{
+    background-color: white; 
+    justify-content: space-evenly;
+    height: 375px;
+    width: 300px; 
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    margin: 390px 50px 50px 250px;
+    position: absolute;
+    padding: 10px;
+     
+}
+.paragraph{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+a{
+    color: rgb(153, 153, 153);
+    font-size: medium;
+
+}
+.last{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Freepik{
+    position: sticky;
+}
+@media screen and (max-width: 992px) {
+    .media {
+      flex-direction: column;
+    }
+    
+}
